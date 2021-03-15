@@ -1,0 +1,205 @@
+/*
+    General Styles
+*/
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(36, 34, 34);
+    color: antiquewhite;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+header h1 {
+   text-align: left;
+}
+
+header nav {
+    text-align: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a, header nav ul li a:active {
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+footer {
+    background-color: rgb(36, 34, 34);
+    color: antiquewhite;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    margin-top: 3em;
+}
+
+/*
+    Example Page
+*/
+
+/*
+    Module 6 
+*/
+
+#module6 {
+    border: 2px solid rgb(36, 34, 34);
+    border-radius: 4px;
+    width: 95%;
+    margin: auto;
+}
+
+#module6 h2{
+    text-align: left;
+    margin: auto;
+    padding: 1em;
+}
+
+#module6 ul{
+    list-style-type: none;
+    margin: 1em 31em;
+    line-height: 200%;
+}
+
+#module6 ul li{
+    text-align: left;
+}
+
+#module6 hr {
+    width: 80%;
+}
+
+/*
+    Module 7 
+*/
+
+#module7 {
+    border: 2px solid navy;
+    border-radius: 4px;
+    width: 95%;
+    margin: auto;
+    color: navy;
+}
+
+#module7 h2{
+    text-align: left;
+    margin: auto;
+    padding: 1em;
+}
+
+#module7 ul{
+    list-style-type: none;
+    margin: 1em 31em;
+    line-height: 200%;
+    border: 2px dotted navy;
+}
+
+#module7 ul li{
+    text-align: left;
+}
+
+.loops li {
+    margin-left: 9em;
+}
+
+#module7 hr {
+    width: 80%;
+}
+
+/*
+    Home Page 
+*/
+
+#home #products {
+    border: 2px solid rgb(36, 34, 34);
+    border-radius: 4px;
+    width: 95%;
+    margin: auto;
+}
+
+#home #products h2{
+    text-align: left;
+    margin: auto;
+    padding: 1em;
+}
+
+#home #products ul{
+    list-style-type: none;
+    margin: 1em 25em;
+    line-height: 200%;
+    width: 99%;
+}
+
+#home #products ul li{
+    text-align: left;
+    max-width: 40%;
+}
+
+#home #products li:first-child {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#home #products hr {
+    width: 80%;
+}
+
+#home #products img {
+    height: auto;
+    width: 100%;
+
+}
+
+/*
+    Account Page
+*/
+#account #accountForm {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 13em;
+    padding-bottom: 3em;
+    color: black;
+}
+
+#account #accountForm h2{
+    text-align: left;
+    margin: auto;
+    padding: 1em;
+}
+
+#account #accountForm ul{
+    list-style-type: none;
+    margin: 1em 31em;
+    line-height: 200%;
+}
+
+#account #accountForm ul li{
+    text-align: left;
+}
+
+#account #accountForm hr {
+    width: 80%;
+}
+
+#account #accountForm input, #account #accountForm textarea {
+    float: right;
+}
